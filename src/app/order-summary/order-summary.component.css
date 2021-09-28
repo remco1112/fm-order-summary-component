@@ -1,0 +1,76 @@
+.hero-header {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+}
+.container {
+    background-color: hsl(225, 100%, 98%);
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 0 1.5em 2em hsl(222deg 95% 88%);
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 24px;
+}
+
+.promotext {
+    color: hsl(224, 23%, 55%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0 1.25em 2em 0.2em hsl(245, 75%, 89%);
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #756cf1;
+    box-shadow: 0 1.25em 2em 0.2em rgba(117, 108, 241, 0.3);
+    cursor: pointer;
+}
+
+.cancel {
+    width: auto;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+:host {
+    max-width: 500px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 1em;
+
+    }
+}

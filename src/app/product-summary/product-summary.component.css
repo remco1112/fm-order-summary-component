@@ -1,0 +1,55 @@
+.product-description {
+    margin-left: 1.5em;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #756cf1;
+    margin-left: 1em;
+
+}
+
+a:hover {
+    cursor: pointer;
+    color: #8480d7;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.product-summary-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebf0fa;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    padding: 1em 2em 1em 2em;
+}
+
+@media (max-width: 550px) {
+    .product-summary-container {
+        padding: 1em 1em 1em 1em;
+    }
+}
